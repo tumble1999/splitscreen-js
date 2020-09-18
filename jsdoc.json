@@ -1,0 +1,15 @@
+{
+	"opts": {
+		"destination": "docs"
+	},
+	"plugins": ["plugins/markdown"],
+	"templates": {
+		"systemName": "SplitScreen JS",
+		"copyright": "Copyright 2019-<script>document.write(new Date().getFullYear());</script> Cameron Trow.",
+		"search": false,
+		"includeDate": false
+	},
+	"source": {
+		"includePattern": ".+\\.(m|c)?js(doc|x)?$"
+	}
+}
